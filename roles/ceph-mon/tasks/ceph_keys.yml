@@ -79,9 +79,9 @@
     secret: "{{ (mgr_secret != 'mgr_secret') | ternary(mgr_secret, omit) }}"
   when:
     - cephx
-    - groups.get(mgr_group_name, []) | length > 0
-    - inventory_hostname == groups[mon_group_name]|last
-    - ceph_release_num[ceph_release] > ceph_release_num.jewel
+    #- groups.get(mgr_group_name, []) | length > 0
+    #- inventory_hostname == groups[mon_group_name]|last
+    #- ceph_release_num[ceph_release] > ceph_release_num.jewel
   with_items: "{{ groups.get(mgr_group_name, []) }}"
 
 # once this gets backported github.com/ceph/ceph/pull/20983
@@ -124,7 +124,7 @@
     - "{{ bootstrap_rbd_keyring | default([]) }}"
   when:
     - cephx
-    - inventory_hostname == groups[mon_group_name] | last
+    #- inventory_hostname == groups[mon_group_name] | last
 
 - name: drop in a motd script to report status when logging in
   copy:
