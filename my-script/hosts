@@ -1,0 +1,13 @@
+127.0.0.1   localhost localhost.localdomain localhost4 localhost4.localdomain4
+::1         localhost localhost.localdomain localhost6 localhost6.localdomain6
+
+10.57.30.80  deploy
+10.58.10.168 gerrit.tongdun.me
+10.57.30.78  registry1
+
+10.57.30.51 controller1
+10.57.30.52 controller2
+10.57.30.53 storage1
+10.57.30.54 storage2
+10.57.30.55 storage3
+
