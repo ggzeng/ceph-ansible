@@ -33,9 +33,9 @@ dummy:
 # All scenario(except 3rd) inherit from the following device declaration
 # Note: This scenario uses the ceph-disk tool to provision OSDs
 
-#devices:
-#  - /dev/sdb
-#  - /dev/sdc
+devices:
+  - /dev/vdb
+  - /dev/vdc
 #  - /dev/sdd
 #  - /dev/sde
 
@@ -77,7 +77,7 @@ dummy:
 #
 # Note: This scenario uses the ceph-disk tool to provision OSDs
 
-#osd_scenario: dummy
+osd_scenario: lvm
 #valid_osd_scenarios:
 #  - collocated
 #  - non-collocated
