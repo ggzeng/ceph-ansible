@@ -82,7 +82,7 @@ devices:
 #
 # Note: This scenario uses the ceph-disk tool to provision OSDs
 
-osd_scenario: collocated
+osd_scenario: lvm
 #valid_osd_scenarios:
 #  - collocated
 #  - non-collocated
