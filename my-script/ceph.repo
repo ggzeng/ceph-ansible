@@ -1,0 +1,9 @@
+[ceph-x86_64]
+name=ceph-x86_64
+baseurl=http://reposite1:8080/yumrepo/ceph/rpm-$ceph/el$releasever/x86_64/
+gpgcheck=0
+
+[ceph-noarch]
+name=ceph-noarch
+baseurl=http://reposite1:8080/yumrepo/ceph/rpm-$ceph/el$releasever/x86_64/
+gpgcheck=0
