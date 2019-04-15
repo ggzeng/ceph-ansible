@@ -39,7 +39,7 @@ dummy:
 
 devices:
   - /dev/vdb
-  - /dev/vdc
+#  - /dev/vdc
 #  - /dev/sdd
 #  - /dev/sde
 

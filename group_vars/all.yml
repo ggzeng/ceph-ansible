@@ -25,7 +25,7 @@ ceph_release_num:
 #  infernalis: 9
 #  jewel: 10
 #  kraken: 11
-#  luminous: 12
+  luminous: 12
   mimic: 13
 #  nautilus: 14
 #  dev: 99
@@ -157,7 +157,7 @@ ceph_origin: distro
 #
 #ceph_mirror: http://download.ceph.com
 #ceph_stable_key: https://download.ceph.com/keys/release.asc
-ceph_stable_release: mimic
+ceph_stable_release: luminous
 #ceph_stable_repo: "{{ ceph_mirror }}/debian-{{ ceph_stable_release }}"
 
 #nfs_ganesha_stable: true # use stable repos for nfs-ganesha
