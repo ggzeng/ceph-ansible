@@ -53,11 +53,12 @@ if ! switch_dir "$env_dir/ansible" "/etc/ansible" ; then
 fi
 
 ###### switch hosts ######
-rm -f /etc/hosts
-if ln -s $env_dir/hosts /etc/hosts ; then
-  echo "."
-else
-  usage
-fi
+#rm -f /etc/hosts
+#if ln -s $env_dir/hosts /etc/hosts ; then
+#  echo "."
+#else
+#  usage
+#fi
+
 echo "switch to env $env success"
 
