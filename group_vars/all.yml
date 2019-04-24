@@ -23,15 +23,15 @@ ceph_release_num:
 #  giant: 0.87
 #  hammer: 0.94
 #  infernalis: 9
-#  jewel: 10
-#  kraken: 11
-#  luminous: 12
-#  mimic: 13
+  jewel: 10
+  kraken: 11
+  luminous: 12
+  mimic: 13
   nautilus: 14
 #  dev: 99
 
 # Directory to fetch cluster fsid, keys etc...
-fetch_directory: fetch/test_ceph2
+fetch_directory: fetch/{{ cluster }}
 
 # The 'cluster' variable determines the name of the cluster.
 # Changing the default value to something else means that you will
@@ -42,7 +42,7 @@ fetch_directory: fetch/test_ceph2
 # An easier way to handle this is to use the environment variable CEPH_ARGS
 # So run: "export CEPH_ARGS="--cluster foo"
 # With that you will be able to run "ceph health" normally
-#cluster: ceph
+cluster: ceph-test2
 
 # Inventory host group variables
 #mon_group_name: mons

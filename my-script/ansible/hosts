@@ -1,6 +1,6 @@
 [all]
 admin1   ansible_host=10.57.30.201 ansible_become=true ip=10.57.30.201
-admin2   ansible_host=10.57.30.202 ansible_become=true ip=10.57.30.202
+admin2   ansible_host=10.57.30.203 ansible_become=true ip=10.57.30.202
 admin3   ansible_host=10.57.30.202 ansible_become=true ip=10.57.30.203
 storage1 ansible_host=10.57.30.204 ansible_become=true ip=10.57.30.204
 storage2 ansible_host=10.57.30.205 ansible_become=true ip=10.57.30.205
