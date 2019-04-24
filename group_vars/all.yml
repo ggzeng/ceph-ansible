@@ -31,7 +31,7 @@ ceph_release_num:
 #  dev: 99
 
 # Directory to fetch cluster fsid, keys etc...
-fetch_directory: fetch/{{ cluster }}}/
+fetch_directory: fetch/{{ cluster }}/
 
 # The 'cluster' variable determines the name of the cluster.
 # Changing the default value to something else means that you will
